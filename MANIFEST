@@ -47,10 +47,10 @@ REQUIREMENT LOCATION
 11. Standard size image using max-width
 12. CSS linear gradiant, radial gradient, box-shadow, and dashed border
 13. grid-column, grid-template-columns, grid-template-rows all utilized. Grid has 3 columns and 3 rows. In smaller screens grid becomes 1 column. Grid contains personal fun facts. Grid feature gap and borders.
-14.
-15.
-16.
-17.
-18.
+14. Flexbox layout for the skills section with responsive stacking. Used 3+ Flexbox properties to control layout
+15. Forced h2 block element in #skills to behave as inline for requirement 15
+16. Fancy selectors implemented in style.css from 144-168
+17. Form includes input types text, email, date, color with required attributes, fieldset, and labels.
+18. ::marker and ::after pseudo-element used 
 19. Duplicate from 12
-20.
+20. Three links to my Github, Linkedin, and Instagram. Hover on a link will make an underline appear and that underline will dissapear once you stop hovering over it. Clicking on it once will turn it permanently blue.
