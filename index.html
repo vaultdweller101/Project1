@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="About Me Page - CS144 Project 1">
+  <title>About Me - Daniel Ngo</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h1 id="main-title">About Me</h1>
+    <nav class="navigation">
+      <a href="https://www.linkedin.com/in/danielngo123/" target="_blank">LinkedIn</a>
+      <a href="https://github.com/vaultdweller101" target="_blank">Github</a>
+      <a href="https://www.instagram.com/dngo.123/" target="_blank">Instagram</a>
+    </nav>
+    <button id="theme-toggle">Toggle Theme</button>
+  </header>
+
+  <main>
+    <div id="about" class="grid-layout">
+      <img src="profile.jpg" alt="Profile picture of Daniel Ngo" class="responsive-img">
+      <article>
+        <h2>About Me</h2>
+        <p>
+          My name is Daniel, I am a 4th year Computer Science student at UCLA. I had 2 internships where I was working on a word crawler for a ML project’s pipeline. I also have experience writing full stack web apps.
+        </p>
+        <p>
+          My current interests include <span class="highlight">math</span>, <span class="highlight">art</span>, and <span class="highlight">history</span>.
+        </p>
+        <p>
+          I am currently looking for a full time position in software engineering. I am open to any opportunities that come my way.
+        </p>
+      </article>
+      <article>
+        <h2>Favourite video games</h2>
+        <ul class="fav-games">
+          <li>Fallout New Vegas</li>
+          <li>S.T.A.L.K.E.R original trilogy</li>
+          <li>Hearts of Iron</li>
+        </ul>
+      </article>
+      <article>
+        <h2>Favourite movies</h2>
+        <ul class="fav-movies">
+          <li>Dr Strangelove</li>
+          <li>The Grand Budapest Hotel</li>
+          <li>White Sun of the Desert</li>
+          <li>Er ist wieder da</li>
+          <li>Death of Stalin</li>
+        </ul>
+      </article>
+      <article>
+        <h2>Favourite books</h2>
+        <ul class="fav-books">
+          <li>Sans Famille - Hector Malot</li>
+          <li>The Great Gatsby - F. Scott Fitzgerald</li>
+          <li>O Alquimista - Paulo Coelho</li>
+        </ul>
+      </article>
+      <article>
+        <h2>Favourite tourist destination</h2>
+        <ul class="fav-destinations">
+          <li>Singapore</li>
+          <li>London</li>
+          <li>New York City</li>
+          <li>Los Angeles</li>
+        </ul>
+      </article>
+      <article>
+        <h2>Favourite food</h2>
+        <ul class="fav-food">
+          <li>Pho</li>
+          <li>Banh mi</li>
+        </ul>
+      </article>
+    </div>
+
+    <section id="skills" class="fancy-box">
+      <h2>Technical Skills</h2>
+      <ul class="outer-list">
+        <li>Languages
+          <ul class="inner-list">
+            <li>Python</li>
+            <li>JavaScript</li>
+            <li>C/C++</li>
+          </ul>
+        </li>
+        <li>Frameworks
+          <ul class="inner-list">
+            <li>NodeJS</li>
+            <li>React</li>
+            <li>ThreeJS</li>
+          </ul>
+        </li>
+      </ul>
+    </section>
+
+    <section id="form-section">
+      <h2>Contact Me</h2>
+      <form>
+        <fieldset>
+          <legend>Send me a message</legend>
+          <label for="name">Name:</label>
+          <input type="text" id="name" required>
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" required>
+
+          <label for="dob">Birthdate:</label>
+          <input type="date" id="dob">
+
+          <label for="color">Favorite Color:</label>
+          <input type="color" id="color">
+
+          <label for="message">Message:</label>
+          <textarea id="message" rows="4" required></textarea>
+
+          <button type="submit">Send</button>
+        </fieldset>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Daniel Ngo</p>
+  </footer>
+
+  <script src="plugin.js"></script>
+</body>
+</html>

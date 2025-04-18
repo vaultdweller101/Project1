@@ -1,0 +1,56 @@
+ALL students complete this section:
+
+CHOICES
+(You are allowed to choose a feature for some of the requirements. Indicate on the line
+ which one you chose using the letter provided in the spec. Separate the letters with a comma
+ In some cases you will also need to tell us what you did)
+-------
+9a. text-shadow, for, main, title
+9b. clamp(), for, main, title
+12. linear-gradient, radial-gradient, box-shadow, dashed
+18. li::after, b, li::marker
+19. Duplicate requirements (similar to 12) addressed here https://piazza.com/class/m8zf7n8z10l59j/post/24
+
+JAVASCRIPT
+(Please tells us what the JavaScript does e.g. "click on the green button and it does the following...")
+----------
+- Button to implement dark/light theme toggle. Current state stored in `localStorage`.
+- Adds an event listener for form submission; on submit, displays alert using value from form input.
+- Uses DOM methods such as `querySelector`, `addEventListener`, `classList.toggle`.
+- Avoids inline JavaScript and uses ES6+ syntax (e.g., arrow functions, template literals).
+
+
+
+NOTES TO STAFF
+(If there is anything you need to tell us, please use the section below)
+---------------
+
+
+
+
+ONLY modify this section if you implemented the requirements across 2 or more files.
+Otherwise, submit this file as is. PLEASE do not delete anything from this file.
+
+REQUIREMENT LOCATION
+(After the period, hit TAB and then enter the HTML page name where the requirement
+ was implemented)
+---------------------
+ 2. Semantic tags: header, main, section, article, footer – index.html
+ 3. Contents displayed properly on mobile and on pc
+ 4. 3 <meta> tags in line 4,5,6 of index.html
+ 5. favicon.ico included, created on https://www.favicon.cc/
+ 6. Heading text color changed in line 48 of style.css, and font family is Montserrat, hotlinked in line 11 of index.html and called upon in line 42 of style.css. Font style is different from that of the rest of the page (Roboto Slab)
+ 7. Nested <ul> with default bullet header replaced
+ 8. Light/dark mode implemented from line 1-29 of style.css and 9-25 of plugin.js
+ 9. clamp() used in line 52 of style.css
+10. Event listener implemented for form submission. Also dark/light mode toggle.
+11. Standard size image using max-width
+12. CSS linear gradiant, radial gradient, box-shadow, and dashed border
+13. grid-column, grid-template-columns, grid-template-rows all utilized. Grid has 3 columns and 3 rows. In smaller screens grid becomes 1 column. Grid contains personal fun facts. Grid feature gap and borders.
+14.
+15.
+16.
+17.
+18.
+19. Duplicate from 12
+20.
