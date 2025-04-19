@@ -9,16 +9,13 @@ CHOICES
 9b. clamp(), for, main, title
 12. linear-gradient, radial-gradient, box-shadow, dashed
 18. li::after, b, li::marker
-19. Duplicate requirements (similar to 12) addressed here https://piazza.com/class/m8zf7n8z10l59j/post/24
+19. linear-gradient, radial-gradient, box-shadow, dashed
 
 JAVASCRIPT
 (Please tells us what the JavaScript does e.g. "click on the green button and it does the following...")
 ----------
 - Button to implement dark/light theme toggle. Current state stored in `localStorage`.
 - Adds an event listener for form submission; on submit, displays alert using value from form input.
-- Uses DOM methods such as `querySelector`, `addEventListener`, `classList.toggle`.
-- Avoids inline JavaScript and uses ES6+ syntax (e.g., arrow functions, template literals).
-
 
 
 NOTES TO STAFF
@@ -50,7 +47,7 @@ REQUIREMENT LOCATION
 14. Flexbox layout for the skills section with responsive stacking. Used 3+ Flexbox properties to control layout
 15. Forced h2 block element in #skills to behave as inline for requirement 15
 16. Fancy selectors implemented in style.css from 144-168
-17. Form includes input types text, email, date, color with required attributes, fieldset, and labels.
+17. Form includes input types text, email, date, color with required attributes, fieldset, and labels. Form also features autocomplete for name and email.
 18. ::marker and ::after pseudo-element used 
 19. Duplicate from 12
 20. Three links to my Github, Linkedin, and Instagram. Hover on a link will make an underline appear and that underline will dissapear once you stop hovering over it. Clicking on it once will turn it permanently blue.

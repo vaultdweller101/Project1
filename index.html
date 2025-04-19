@@ -18,7 +18,7 @@
       <a href="https://github.com/vaultdweller101" target="_blank">Github</a>
       <a href="https://www.instagram.com/dngo.123/" target="_blank">Instagram</a>
     </nav>
-    <button id="theme-toggle">Toggle Theme</button>
+    <button id="theme-toggle">Dark/Light mode</button>
   </header>
 
   <main>
@@ -33,7 +33,7 @@
           My current interests include <span class="highlight">math</span>, <span class="highlight">art</span>, and <span class="highlight">history</span>.
         </p>
         <p>
-          I am currently looking for a full time position in software engineering. I am open to any opportunities that come my way.
+          I am heading over to the Bay this summer for a Meta internship. I'm also looking for a fulltime position!
         </p>
       </article>
       <article>
@@ -42,7 +42,13 @@
           <li>Fallout New Vegas</li>
           <li>S.T.A.L.K.E.R original trilogy</li>
           <li>Hearts of Iron</li>
+          <li>Buzzer Beater, my personal project of course! The demo is down below:</li>
         </ul>
+        
+        <iframe width="420" height="315"
+            src="https://www.youtube.com/embed/MxcUGcVEwN0" id="video" frameborder="0">
+        </iframe>
+      
       </article>
       <article>
         <h2>Favourite movies</h2>
@@ -104,24 +110,25 @@
       <h2>Contact Me</h2>
       <form>
         <fieldset>
-          <legend>Send me a message</legend>
+          <legend>Please give me 2 days to response</legend>
+
           <label for="name">Name:</label>
-          <input type="text" id="name" required>
+          <input type="text" id="name" required autocomplete="given-name"><br>
 
           <label for="email">Email:</label>
-          <input type="email" id="email" required>
+          <input type="email" id="email" required autocomplete="username"><br>
 
-          <label for="dob">Birthday:</label>
-          <input type="date" id="dob">
+          <label for="birthday">Birthday:</label>
+          <input type="date" id="birthday"><br>
 
           <label for="color">Favorite Color:</label>
-          <input type="color" id="color" value="#ff0000">
+          <input type="color" id="color" value="#ff0000"><br>
 
           <label for="horoscope">Horoscope:</label>
-          <input type="text" id="horoscope" placeholder="Enter your horoscope">
+          <input type="text" id="horoscope" placeholder="Enter your horoscope"><br>
 
           <label for="message">Message:</label>
-          <textarea id="message" rows="4" required></textarea>
+          <textarea id="message" rows="4" required></textarea><br>
 
           <button type="submit">Send</button>
         </fieldset>
